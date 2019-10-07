@@ -359,10 +359,10 @@ public class MainActivity extends AppCompatActivity {
 
     // Update Images
     mDataBinding.barcodeTable.rowOneBarcodeOne.setImageResource(R.drawable.ic_code_128_demo_01);
-    mDataBinding.barcodeTable.rowOneBarcodeTwo.setImageResource(R.drawable.ic_aztec_demo_02);
-    mDataBinding.barcodeTable.rowOneBarcodeThree.setImageResource(R.drawable.ic_pdf417_demo_03);
+    mDataBinding.barcodeTable.rowOneBarcodeTwo.setImageResource(R.drawable.ic_code_128_demo_02);
+    mDataBinding.barcodeTable.rowOneBarcodeThree.setImageResource(R.drawable.ic_code_128_demo_03);
     mDataBinding.barcodeTable.rowTwoBarcodeOne.setImageResource(R.drawable.ic_qr_code_demo_04);
-    mDataBinding.barcodeTable.rowTwoBarcodeTwo.setImageResource(R.drawable.ic_han_xin_demo_05);
+    mDataBinding.barcodeTable.rowTwoBarcodeTwo.setImageResource(R.drawable.ic_pdf_417_demo_05);
     mDataBinding.barcodeTable.rowTwoBarcodeThree.setImageResource(R.drawable.ic_data_matrix_demo_06);
 
     // Apply Custom Paddings
