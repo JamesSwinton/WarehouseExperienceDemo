@@ -1,0 +1,5 @@
+<resources>
+  <string name="app_name">Warehouse Experience Demo</string>
+
+  <string name="scan_progress">Current Progress: %1$d / %2$d</string>
+</resources>

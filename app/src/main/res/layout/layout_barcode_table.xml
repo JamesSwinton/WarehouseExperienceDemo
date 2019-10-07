@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base Table Layout -->
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Row 1 -->
+
+        <TableRow
+            android:id="@+id/barcode_row_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/row_one_barcode_one"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:src="@drawable/ic_code_128_demo_01" />
+
+            <ImageView
+                android:id="@+id/row_one_barcode_two"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:padding="25dp"
+                android:src="@drawable/ic_aztec_demo_02" />
+
+            <ImageView
+                android:id="@+id/row_one_barcode_three"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_pdf417_demo_03" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/identifier_row_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/row_one_identifier_one"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Code 128"/>
+
+            <TextView
+                android:id="@+id/row_one_identifier_two"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Aztec"/>
+
+            <TextView
+                android:id="@+id/row_one_identifier_three"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="PDF417"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/row_two_barcode_one"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:padding="25dp"
+                android:src="@drawable/ic_qr_code_demo_04" />
+
+            <ImageView
+                android:id="@+id/row_two_barcode_two"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:padding="25dp"
+                android:src="@drawable/ic_han_xin_demo_05" />
+
+            <ImageView
+                android:id="@+id/row_two_barcode_three"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:padding="25dp"
+                android:src="@drawable/ic_data_matrix_demo_06" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/identifier_row_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/row_two_identifier_one"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="QR Code"/>
+
+            <TextView
+                android:id="@+id/row_two_identifier_two"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Han Xin"/>
+
+            <TextView
+                android:id="@+id/row_two_identifier_three"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Data Matrix"/>
+
+        </TableRow>
+
+<!--        <TableRow-->
+<!--            android:id="@+id/row_three"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/row_three_barcode_one"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:padding="25dp"-->
+<!--                android:src="@drawable/ic_qr_code" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/row_three_barcode_two"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:padding="25dp"-->
+<!--                android:src="@drawable/ic_qr_code" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/row_three_barcode_three"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:padding="25dp"-->
+<!--                android:src="@drawable/ic_qr_code" />-->
+
+<!--        </TableRow>-->
+
+<!--        <TableRow-->
+<!--            android:id="@+id/identifier_row_three"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/row_three_identifier_one"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:text="QR Code"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/row_three_identifier_two"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:text="QR Code"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/row_three_identifier_three"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:text="QR Code"/>-->
+
+<!--        </TableRow>-->
+
+    </TableLayout>
+
+</layout>
