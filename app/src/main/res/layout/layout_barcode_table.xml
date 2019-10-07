@@ -28,15 +28,16 @@
                 android:layout_width="0dp"
                 android:layout_height="150dp"
                 android:layout_weight="1"
-                android:padding="25dp"
-                android:src="@drawable/ic_aztec_demo_02" />
+                android:padding="10dp"
+                android:src="@drawable/ic_code_128_demo_02" />
 
             <ImageView
                 android:id="@+id/row_one_barcode_three"
                 android:layout_width="0dp"
                 android:layout_height="150dp"
                 android:layout_weight="1"
-                android:src="@drawable/ic_pdf417_demo_03" />
+                android:padding="10dp"
+                android:src="@drawable/ic_code_128_demo_03" />
 
         </TableRow>
 
@@ -61,7 +62,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:layout_gravity="center"
-                android:text="Aztec"/>
+                android:text="Code 128"/>
 
             <TextView
                 android:id="@+id/row_one_identifier_three"
@@ -70,7 +71,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:layout_gravity="center"
-                android:text="PDF417"/>
+                android:text="Code 128"/>
 
         </TableRow>
 
@@ -92,8 +93,7 @@
                 android:layout_width="0dp"
                 android:layout_height="150dp"
                 android:layout_weight="1"
-                android:padding="25dp"
-                android:src="@drawable/ic_han_xin_demo_05" />
+                android:src="@drawable/ic_pdf_417_demo_05" />
 
             <ImageView
                 android:id="@+id/row_two_barcode_three"
@@ -126,7 +126,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:layout_gravity="center"
-                android:text="Han Xin"/>
+                android:text="PDF 417"/>
 
             <TextView
                 android:id="@+id/row_two_identifier_three"

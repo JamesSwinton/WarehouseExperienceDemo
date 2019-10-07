@@ -93,10 +93,8 @@ public class DataWedgeUtilities {
     barcodeProps.putString("scanner_selection", "auto");
     barcodeProps.putString("scanner_input_enabled", "true");
     barcodeProps.putString("decoder_code128", "true");
-    barcodeProps.putString("decoder_aztec", "true");
     barcodeProps.putString("decoder_pdf417", "true");
     barcodeProps.putString("decoder_qrcode", "true");
-    barcodeProps.putString("decoder_hanxin", "true");
     barcodeProps.putString("decoder_datamatrix", "true");
 
     // Store BarcodeProperties in BarcodeConfig
