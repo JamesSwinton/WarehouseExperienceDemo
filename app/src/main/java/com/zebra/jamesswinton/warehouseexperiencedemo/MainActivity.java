@@ -161,22 +161,24 @@ public class MainActivity extends AppCompatActivity {
     // Verify Barcode is part of demo
     if (!demoBarcodes.containsKey(scannedData)) {
       Log.e(TAG, "Scanned barcode is not part of demo!");
-      showScanAnimation(AnimationState.ERROR);
+      // Scan Animation Removed
+      // showScanAnimation(AnimationState.ERROR);
       return;
     }
 
     // Verify if Barcode has already been scanned
     if (demoBarcodes.get(scannedData)) {
       Log.e(TAG, "Barcode has already been scanned!");
-      showScanAnimation(AnimationState.DUPLICATE);
+      // Scan Animation Removed
+      // showScanAnimation(AnimationState.DUPLICATE);
       return;
     }
 
     // Barcode exists & has not been scanned before, update map value
     demoBarcodes.put(scannedData, true);
 
-    // Show Success Animation
-    showScanAnimation(AnimationState.SUCCESS);
+    // Scan Animation Removed
+    // showScanAnimation(AnimationState.SUCCESS);
 
     // Update UI State
     updateUiState();
@@ -290,7 +292,7 @@ public class MainActivity extends AppCompatActivity {
   }
 
   /**
-   * Animation Logic
+   * Animation Logic - Currently Redundant
    */
 
   private void showScanAnimation(AnimationState animationState) {
@@ -303,8 +305,6 @@ public class MainActivity extends AppCompatActivity {
         mDataBinding.scanAnimation.setAnimation(R.raw.success);
         break;
       case ERROR:
-        mDataBinding.scanAnimation.setAnimation(R.raw.error);
-        break;
       case DUPLICATE:
         mDataBinding.scanAnimation.setAnimation(R.raw.error);
         break;
