@@ -75,6 +75,7 @@ public class CustomDialog {
     // Create Dialog
     AlertDialog customAlertDialog = new MaterialAlertDialogBuilder(cx)
             .setView(customDialogView)
+            .setCancelable(false)
             .setPositiveButton(positiveButtonText, positiveClickListener)
             .create();
 
